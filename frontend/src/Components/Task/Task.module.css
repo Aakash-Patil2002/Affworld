@@ -1,0 +1,82 @@
+* {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.main {
+  min-height: 90vh;
+  background-color: #f9f9f9;
+  padding: 30px 0;
+}
+
+.column {
+  min-height: 100vh;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  min-height: 400px;
+  overflow-y: auto;
+}
+
+.column h2 {
+  text-align: center;
+  color: #111;
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.task {
+  background-color: #fff;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: grab;
+}
+.taskname{
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+.task p {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+
+.task button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task button:hover {
+  background-color: #d32f2f;
+}
+
+.pending {
+  background-color: #f6c3b8;
+}
+
+.completed {
+  background-color: #d9dff5;
+}
+
+.done {
+  background-color: #b2f4c5;
+}
+
+.column:hover {
+  background-color: #f1eded;
+}
+
+.task:hover {
+  background-color: #fafafa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

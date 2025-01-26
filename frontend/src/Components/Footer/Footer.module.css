@@ -1,0 +1,50 @@
+.footer {
+  background-color: #10182f; /* Set the background color */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Spacing between social buttons */
+  padding: 20px 0;
+}
+
+.socialButton {
+  background-color: #54456b; /* Background color for buttons */
+  color: white; /* Icon color */
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.socialButton:hover {
+  background-color: #748906; /* Hover effect color */
+  transform: scale(1.1); /* Slight zoom on hover */
+}
+
+.link {
+  color: #fff; 
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #748906; 
+}
+
+.copyright {
+  /* background-color: rgba(0, 0, 0, 0.2); */
+  padding: 10px 0;
+  font-size: 14px;
+}

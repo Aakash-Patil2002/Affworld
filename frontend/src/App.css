@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.input-group input,.input-group span{
+  background-color: transparent;
+  border: none;
+  color: #ddd;
+}
+.input-group input::placeholder{
+  color: #ddd;
+  font-size: 15px;
+  
+}
+.input-group input:focus{
+  background-color: transparent;
+  color: #fff;
+  box-shadow: none;
+}
+.input-group{
+  border: 2px solid var(--color1) !important;
+  border-radius: 10px;
+  height: 42px;
+  overflow: hidden;
+}

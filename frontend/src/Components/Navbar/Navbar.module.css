@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.nav {
+  background-color: #10182F;
+  padding: 10px 0;
+}
+
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.topLeft {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.logo:hover {
+  color: #ddd;
+}
+
+.topCenter {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.topList {
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.topListItem {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.topRight {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  position: relative;
+}
+
+.separator {
+  color: #fff;
+  font-weight: 500;
+}
+
+
+.userMenu {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.userName {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 130%;
+  right: 0px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  z-index: 1000;
+  padding: 10px 0;
+  width: 130px;
+}
+
+.dropdownLink {
+  display: block;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  transition: all 0.2s ease-in-out;
+}
+
+.dropdownLink:hover {
+  background-color: #10182f;
+  color: #fff;
+}
+
+.userMenu .dropdown {
+  display: block;
+}
+
+
+
+.topSearchIcon {
+  font-size: 18px;
+  cursor: pointer;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.topSearchIcon:hover {
+  color: #748906;
+}
+
+.topIcon {
+  font-size: 20px;
+  color: #bfbfbf;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.topIcon:hover {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .topCenter {
+    margin-top: 10px;
+  }
+
+  .topList {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .topRight {
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .searchInput {
+    width: 100%;
+  }
+}
